@@ -4,6 +4,8 @@ title: DCsync Attack
 date: 2025-09-29 18:00:00 +0300
 categories: [Active Directory - CRTP, DCsync, DCsync Attack] # Add your new categories here
 tags: [Replication, secretdump, ntds, ChangeAll]
+image: "photos/DCsync/DCsynvattack.jpg"   
+
 ---
 
 **DCsync** 

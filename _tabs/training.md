@@ -1,5 +1,7 @@
 ---
-layout: Training
+layout: training
+title: Training
+permalink: /training/ 
 icon: fa-solid fa-school
-order: 1
+order: 4
 ---
