@@ -2,14 +2,16 @@
 
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+  url: 'https://github.com/LiLRavx'
+- type: linkedin
+  icon: "fa-brands fa-linkedin"
+  url: 'https://www.linkedin.com/in/yazen-salehh/'
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
-
+  url: 'yazen.salehh@gmail.com'
+  
 - type: rss
   icon: "fas fa-rss"
   noblank: true
