@@ -1,0 +1,79 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Yazan's blog</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-09-30T17:37:43-04:00</updated>
+  <author>
+    <name>Yazan Saleh</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Yazan Saleh </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>DCsync Attack</title>
+    <link href="http://localhost:4000/posts/DCsyncAttack/" rel="alternate" type="text/html" title="DCsync Attack" />
+    <published>2025-09-29T11:00:00-04:00</published>
+  
+    <updated>2025-09-29T11:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/DCsyncAttack/</id>
+    <content type="text/html" src="http://localhost:4000/posts/DCsyncAttack/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Active Directory - CRTP" />
+    
+    <category term="DCsync" />
+    
+    <category term="DCsync Attack" />
+    
+  
+
+  <summary>DCsync  abuses Active Directory replication: an attacker impersonates a domain controller and requests replication from a real DC to obtain credential material (password hashes, Kerberos keys, etc.). This lets the attacker harvest account credentials without directly compromising the domain controller’s NTDS.dit file.  How it works (short):       AD replication allows DCs to exchange directory ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>What is Replication</title>
+    <link href="http://localhost:4000/posts/Replication/" rel="alternate" type="text/html" title="What is Replication" />
+    <published>2025-09-28T11:00:00-04:00</published>
+  
+    <updated>2025-09-28T11:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/Replication/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Replication/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Active Directory - CRTP" />
+    
+    <category term="DCsync" />
+    
+    <category term="Replication" />
+    
+  
+
+  <summary>DCsync  we need to understand Replication in order to perform DCsync Attack.  What is Replication in Active Directory?  Replication is the process used between Domain Controllers (DCs) in an Active Directory environment to ensure they all have the same up-to-date database.  Every Domain Controller stores a copy of the Active Directory database.     If one DC fails, others can still provide auth...</summary>
+
+  </entry>
+
+</feed>
+
+
