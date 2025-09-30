@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yazan's blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-09-30T19:00:08-04:00</updated>
+  <updated>2025-09-30T19:09:01-04:00</updated>
   <author>
     <name>Yazan Saleh</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/DCsyncAttack/" rel="alternate" type="text/html" title="DCsync Attack" />
     <published>2025-09-29T11:00:00-04:00</published>
   
-    <updated>2025-09-29T11:00:00-04:00</updated>
+    <updated>2025-09-30T19:05:09-04:00</updated>
   
     <id>http://localhost:4000/posts/DCsyncAttack/</id>
     <content type="text/html" src="http://localhost:4000/posts/DCsyncAttack/" />
