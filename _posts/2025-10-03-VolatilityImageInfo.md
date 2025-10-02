@@ -23,13 +23,13 @@ The following example involves an image from a CTF, but this method can be appli
 vol3 -f memdump.mem windows.registry.printkey.PrintKey — key “Microsoft\Windows NT\CurrentVersion”
 ```
 
-![](1.jpg)
+![](/photos/Volatiltiy/1.jpg)
 
 1. After running the command, what we need to focus on are:
     1. ProductName: Windows 10 Pro
     2. CurrentBuildNumber: 19043
         
-        ![](2.jpg)
+        ![](/photos/Volatiltiy/2.jpg)
         
 2. now we need to use volatiltiy 2 to get the excat or closest profile for the memory by using this command:
 
@@ -37,11 +37,11 @@ vol3 -f memdump.mem windows.registry.printkey.PrintKey — key “Microsoft\Wind
 vol.py -info | grep Win10
 ```
 
-![](3.jpg)
+![](/photos/Volatiltiy/3.jpg)
 
 Our Profile number on volatiltiy 3 is 19043 , from this step we can chose the same number if we can’t find the same number we can choose the closest one to the current number, in our case 19041
 
-![](4.jpg)
+![](/photos/Volatiltiy/4.jpg)
 
 > Note(1): Sometimes you may obtain the exact number depending on the Windows version, while other times you might receive a number higher than yours. It’s generally better to select a number that is equal to or higher than yours.
 > 
