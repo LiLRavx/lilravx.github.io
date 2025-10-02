@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yazan's blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-09-30T19:09:01-04:00</updated>
+  <updated>2025-10-02T17:58:59-04:00</updated>
   <author>
     <name>Yazan Saleh</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Volatiltiy - imageinfo Plugin</title>
+    <link href="http://localhost:4000/posts/VolatilityImageInfo/" rel="alternate" type="text/html" title="Volatiltiy - imageinfo Plugin" />
+    <published>2025-10-02T17:12:00-04:00</published>
+  
+    <updated>2025-10-02T17:12:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/VolatilityImageInfo/</id>
+    <content type="text/html" src="http://localhost:4000/posts/VolatilityImageInfo/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Blue Team" />
+    
+    <category term="Volatility" />
+    
+  
+
+  <summary>Instead of struggling for hours with the plugin imageinfoto identify the image profile, especially when dealing with images exceeding 50GB that take 2+ hours, we can utilize Volatility3 plugins and leverage their output for Volatility2, yeah !!  Essentially, Windows stores comprehensive information in registry hives. In this article, we’ll focus on the Software hive, particularly on the current...</summary>
+
+  </entry>
 
   
   <entry>

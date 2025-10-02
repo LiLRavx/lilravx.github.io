@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Active Directory - CRTP" />
+<meta property="og:title" content="Yazan’s blog" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
 <meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="http://localhost:4000/categories/active-directory-crtp/" />
-<meta property="og:url" content="http://localhost:4000/categories/active-directory-crtp/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Yazan’s blog" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Active Directory - CRTP" />
+<meta property="twitter:title" content="Yazan’s blog" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Active Directory - CRTP","url":"http://localhost:4000/categories/active-directory-crtp/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Yazan’s blog","name":"Yazan Saleh","sameAs":["https://www.linkedin.com/in/yazen-salehh/","https://github.com/username"],"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Active Directory - CRTP | Yazan's blog
+  <title>Yazan's blog
   </title>
 
   <!--
@@ -112,6 +112,8 @@
   
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
 
   
 
@@ -128,6 +130,10 @@
 <!-- layout specified -->
 
 
+  
+
+  
+
 
 
 
@@ -177,9 +183,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -187,7 +200,7 @@
 
 
 
-<script defer src="/assets/js/dist/misc.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
 
 
@@ -217,7 +230,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -231,16 +244,6 @@
             
 
             <span>CATEGORIES</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
-      
-        <li class="nav-item">
-          <a href="/training/" class="nav-link">
-            <i class="fa-fw fa-solid fa-school"></i>
-            
-
-            <span>TRAINING</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -261,6 +264,16 @@
             
 
             <span>ARCHIVES</span>
+          </a>
+        </li>
+        <!-- .nav-item -->
+      
+        <li class="nav-item">
+          <a href="/training/" class="nav-link">
+            <i class="fa-fw fa-solid fa-school"></i>
+            
+
+            <span>TRAINING</span>
           </a>
         </li>
         <!-- .nav-item -->
@@ -391,27 +404,9 @@
       
 
       
-        
-          
-            <span>
-              <a href="/">Home</a>
-            </span>
+        <!-- index page -->
+        <span>Home</span>
 
-          
-        
-          
-            <span>
-              <a href="/categories/">Categories</a>
-            </span>
-          
-        
-          
-            
-              <span>Active Directory - CRTP</span>
-            
-
-          
-        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -421,7 +416,7 @@
     </button>
 
     <div id="topbar-title">
-      Category
+      Yazan's blog
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -447,29 +442,199 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              
+              <!-- Refactor the HTML structure -->
 
 
 
-<article class="px-1">
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+  
+  
+
   
     
-
-
-
-<div id="page-category">
-  <h1 class="ps-lg-2">
-    <i class="far fa-folder-open fa-fw text-muted"></i>
-    Active Directory - CRTP
-    <span class="lead text-muted ps-2">2</span>
-  </h1>
-
-  <ul class="content ps-0">
+      
+      
     
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/posts/DCsyncAttack/">DCsync Attack</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- create the image wrapper -->
+      
+
+      
+      
+
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+<!-- Get pinned posts on current page -->
+
+
+
+
+
+
+<!-- Get normal posts on current page -->
+
+
+
+
+
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    
+    <article class="card-wrapper card">
+      <a href="https://www.udemy.com/course/soc-dfir-from-setup-to-investigation-arabic/?referralCode=561ACD82051D8771B3FB" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img "><img src="/photos/soc.jpg" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">SOC & DFIR: From Setup to Investigation</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>“Download SIEM solution, forward logs, and investigate real-world cases, come by and join with us.</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -478,32 +643,6 @@
 
 
 <time
-  
-    class="text-muted small text-nowrap"
-  
-  data-ts="1759158000"
-  data-df="ll"
-  
->
-  Sep 29, 2025
-</time>
-
-      </li>
-    
-      <li class="d-flex justify-content-between px-md-3">
-        <a href="/posts/Replication/">What is Replication</a>
-        <span class="dash flex-grow-1"></span>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="text-muted small text-nowrap"
   
   data-ts="1759071600"
   data-df="ll"
@@ -512,13 +651,31 @@
   Sep 28, 2025
 </time>
 
-      </li>
-    
-  </ul>
-</div>
 
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      SOC, DFIR, Support, SIEM
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
   
-</article>
+</div>
+<!-- #post-list -->
+
+
+
 
             
           </main>
@@ -544,13 +701,6 @@
   <section id="access-lastmod">
     <h2 class="panel-heading">Recently Updated</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/VolatilityImageInfo/">Volatiltiy - imageinfo Plugin</a>
-        </li>
       
         
         
@@ -612,16 +762,6 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -736,234 +876,6 @@
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -990,12 +902,6 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/changeall/">ChangeAll</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dfir/">DFIR</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/imageinfo/">imageinfo</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/kcc/">KCC</a>
       
         
@@ -1003,12 +909,6 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/secretdump/">secretdump</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/volatiltiy2/">Volatiltiy2</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/volatiltiy3/">Volatiltiy3</a>
       
     </div>
   </section>
@@ -1110,16 +1010,6 @@
     
     
     
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
       
         
         
@@ -1234,234 +1124,6 @@
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1488,12 +1150,6 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/changeall/">ChangeAll</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dfir/">DFIR</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/imageinfo/">imageinfo</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/kcc/">KCC</a>
       
         
@@ -1501,12 +1157,6 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/secretdump/">secretdump</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/volatiltiy2/">Volatiltiy2</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/volatiltiy3/">Volatiltiy3</a>
       
     </div>
   </section>
