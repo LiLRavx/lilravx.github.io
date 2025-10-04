@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yazan's blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-02T18:09:54-04:00</updated>
+  <updated>2025-10-04T08:11:15-04:00</updated>
   <author>
     <name>Yazan Saleh</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/VolatilityImageInfo/" rel="alternate" type="text/html" title="Volatiltiy - imageinfo Plugin" />
     <published>2025-10-02T17:12:00-04:00</published>
   
-    <updated>2025-10-02T17:12:00-04:00</updated>
+    <updated>2025-10-02T18:11:13-04:00</updated>
   
     <id>http://localhost:4000/posts/VolatilityImageInfo/</id>
     <content type="text/html" src="http://localhost:4000/posts/VolatilityImageInfo/" />
@@ -69,6 +69,32 @@
   
 
   <summary>DCsync  abuses Active Directory replication: an attacker impersonates a domain controller and requests replication from a real DC to obtain credential material (password hashes, Kerberos keys, etc.). This lets the attacker harvest account credentials without directly compromising the domain controller’s NTDS.dit file.  How it works (short):       AD replication allows DCs to exchange directory ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Sauna Writeup</title>
+    <link href="http://localhost:4000/posts/Sauna-HTB-Machine/" rel="alternate" type="text/html" title="Sauna Writeup" />
+    <published>2025-09-28T11:00:00-04:00</published>
+  
+    <updated>2025-09-28T11:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/Sauna-HTB-Machine/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Sauna-HTB-Machine/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Active Directory - CRTP" />
+    
+    <category term="DCsync" />
+    
+  
+
+  <summary>❗Important Commands in this article ❗  1. GetNPUsers.py EGOTISTICAL-BANK.LOCAL/ -usersfile users_ready -dc-ip 10.10.10.175 -no-pass 2. upload /opt/pref/winPEAS.ps1 C:\\Users\\FSmith\\Documents\\winPEAS.ps1 3. Get-ObjectAcl | Select ObjectSID,ActiveDirectoryRights | Format-List 4. secretsdump.py svc_loanmgr:Moneymakestheworldgoround!@10.10.10.175 5. [secretsdump.py](http://secretsdump.py/) svc_l...</summary>
 
   </entry>
 
