@@ -49,7 +49,7 @@ we can use tool such as username-anarchy  to create our own list, for the Sauna�
 
 now we need to start our hypothisi for the vulnarability on kerberos port, we have our list ready, and we have ip of the machine 
 
-we can use [NPGetusers.py](http://NPGetusers.py) from impact scripts, if you didn’t find it online you can install impacet using pip
+we can use [NPGetusers.py](NPGetusers.py) from impact scripts, if you didn’t find it online you can install impacet using pip
 
 ```jsx
 GetNPUsers.py EGOTISTICAL-BANK.LOCAL/ -usersfile users_ready -dc-ip 10.10.10.175 -no-pass
