@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yazan's blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-04T08:11:15-04:00</updated>
+  <updated>2025-10-07T15:09:41-04:00</updated>
   <author>
     <name>Yazan Saleh</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>BITS Windows</title>
+    <link href="http://localhost:4000/posts/BITS/" rel="alternate" type="text/html" title="BITS Windows" />
+    <published>2025-10-07T14:45:00-04:00</published>
+  
+    <updated>2025-10-07T14:45:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/BITS/</id>
+    <content type="text/html" src="http://localhost:4000/posts/BITS/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Blue Team" />
+    
+    <category term="Windows Service" />
+    
+    <category term="Background Intelligent Transfer Service" />
+    
+  
+
+  <summary>The Quiet Windows Service That Became a Cyber Weapon  In the heart of Windows lives a small, polite service called BITS — Background Intelligent Transfer Service. It was designed to quietly move files (updates, assets) in the background and resume transfers after reboots or network outages. But what makes a helpful system feature so interesting to defenders — and attractive to attackers — is ex...</summary>
+
+  </entry>
 
   
   <entry>
@@ -78,7 +106,7 @@
     <link href="http://localhost:4000/posts/Sauna-HTB-Machine/" rel="alternate" type="text/html" title="Sauna Writeup" />
     <published>2025-09-28T11:00:00-04:00</published>
   
-    <updated>2025-09-28T11:00:00-04:00</updated>
+    <updated>2025-10-04T08:16:25-04:00</updated>
   
     <id>http://localhost:4000/posts/Sauna-HTB-Machine/</id>
     <content type="text/html" src="http://localhost:4000/posts/Sauna-HTB-Machine/" />
