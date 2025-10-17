@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yazan's blog</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-17T09:43:19-04:00</updated>
+  <updated>2025-10-17T10:29:21-04:00</updated>
   <author>
     <name>Yazan Saleh</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Named Pipe</title>
+    <link href="http://localhost:4000/posts/NamedPipe/" rel="alternate" type="text/html" title="Named Pipe" />
+    <published>2025-10-16T11:00:00-04:00</published>
+  
+    <updated>2025-10-16T11:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/NamedPipe/</id>
+    <content type="text/html" src="http://localhost:4000/posts/NamedPipe/" />
+    <author>
+      <name>Yazan Saleh</name>
+    </author>
+
+  
+    
+    <category term="Blue Team" />
+    
+    <category term="Windows Service" />
+    
+    <category term="Named Pipe" />
+    
+  
+
+  <summary>Named Pipe  Basically, a named pipe is an Inter-Process Communication (IPC) mechanism.  IPC (Inter-Process Communication) allows processes to exchange data using two main methods: shared memory and message passing.  In shared memory, the operating system provides a memory region that both processes can access — one writes the data while the other reads it but proper synchronization is required....</summary>
+
+  </entry>
 
   
   <entry>
@@ -123,34 +151,6 @@
   
 
   <summary>❗Important Commands in this article ❗  1. GetNPUsers.py EGOTISTICAL-BANK.LOCAL/ -usersfile users_ready -dc-ip 10.10.10.175 -no-pass 2. upload /opt/pref/winPEAS.ps1 C:\\Users\\FSmith\\Documents\\winPEAS.ps1 3. Get-ObjectAcl | Select ObjectSID,ActiveDirectoryRights | Format-List 4. secretsdump.py svc_loanmgr:Moneymakestheworldgoround!@10.10.10.175 5. [secretsdump.py](http://secretsdump.py/) svc_l...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>What is Replication</title>
-    <link href="http://localhost:4000/posts/Replication/" rel="alternate" type="text/html" title="What is Replication" />
-    <published>2025-09-28T11:00:00-04:00</published>
-  
-    <updated>2025-09-28T11:00:00-04:00</updated>
-  
-    <id>http://localhost:4000/posts/Replication/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Replication/" />
-    <author>
-      <name>Yazan Saleh</name>
-    </author>
-
-  
-    
-    <category term="Active Directory - CRTP" />
-    
-    <category term="DCsync" />
-    
-    <category term="Replication" />
-    
-  
-
-  <summary>DCsync  we need to understand Replication in order to perform DCsync Attack.  What is Replication in Active Directory?  Replication is the process used between Domain Controllers (DCs) in an Active Directory environment to ensure they all have the same up-to-date database.  Every Domain Controller stores a copy of the Active Directory database.     If one DC fails, others can still provide auth...</summary>
 
   </entry>
 

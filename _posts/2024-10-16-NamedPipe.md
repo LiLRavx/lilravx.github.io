@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Windows Named Pipe
-date: 2025-10-17 20:00:00 +0300
+title: Named Pipe
+date: 2025-10-16 18:00:00 +0300
 categories: [Blue Team, Windows Service, Named Pipe] # Add your new categories here
-tags: [sniff, RPC, NamedPipe]
+tags: [Replication, KCC, AD]
 image: "photos/NamedPipe/bg.jpg"
 ---
+
+# Named Pipe
 
 Basically, a **named pipe** is an **Inter-Process Communication (IPC)** mechanism.
 
@@ -76,7 +78,7 @@ When a pipe is created, you should analyze it using **Sysmon Event ID 17**, chec
 
 see the demo/video below for a practical example.
 
-[](photos/NamedPipe/demo.mp4)
+![](photos/demo.mp4)
 
 **ACLs, Security, and Impersonation**
 
@@ -85,6 +87,3 @@ see the demo/video below for a practical example.
     - It’s important to set a proper **DACL (Discretionary Access Control List)** on sensitive pipes — for example, allowing access only to a specific service group or a designated service account.
 
 ![](photos/NamedPipe/afterviedo.png)
-
-
-
