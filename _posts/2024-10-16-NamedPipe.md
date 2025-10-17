@@ -81,7 +81,7 @@ see the demo/video below for a practical example.
 
 
 <video width="100%" height="auto" controls poster="/assets/photos/NamedPipe/first.png">
-    <source src="/photos/NamedPipe/demo.mp4" type="video/mp4">
+    <source src="https://youtu.be/mpFQ1ot5pvg" type="video/mp4">
 </video>
 
 
