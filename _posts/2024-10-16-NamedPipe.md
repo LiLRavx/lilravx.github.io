@@ -79,11 +79,17 @@ When a pipe is created, you should analyze it using **Sysmon Event ID 17**, chec
 see the demo/video below for a practical example.
 
 
-
-<video width="100%" height="auto" controls poster="/assets/photos/NamedPipe/first.png">
-    <source src="https://youtu.be/mpFQ1ot5pvg?si=k-G-IJNflD4PtG_C" type="video/mp4">
-</video>
-
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+    <iframe 
+        width="100%" 
+        height="100%" 
+        src="https://www.youtube.com/embed/mpFQ1ot5pvg" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0;">
+    </iframe>
+</div>
 
 **ACLs, Security, and Impersonation**
 
